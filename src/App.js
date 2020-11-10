@@ -46,7 +46,7 @@ function App() {
           <Select
           labelId="thing"
           variant="outlined"
-          value={country} onChange={}>
+          value={country} onChange={onCountryChange}>
             <MenuItem value='worldwide'>Worldwide</MenuItem>
         {/* Map through countries */}
             {countries.map(country =>{
